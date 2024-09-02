@@ -1,0 +1,17 @@
+{
+  "name": "andriilive/wp-disable-generated-image-sizes",
+  "description": "Configure wordpress PHPMailer to send mail via SMTP.",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/andriilive/wp-phpmailer-smtp",
+  "authors": [
+    {
+      "name": "Andrii Iv. <hi@digitalandy.eu>",
+      "homepage": "https://github.com/andriilive"
+    }
+  ],
+  "license": "Apache-2.0",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=8.0"
+  }
+}

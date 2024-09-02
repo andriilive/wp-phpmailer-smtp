@@ -7,8 +7,32 @@ Configure WP PHPMailer to send mail via SMTP, by defining the SMTP configuration
 
 - Requires PHP at least `8.0`
 - Tested with WP `5.8.1`-`6.4.1.`
+- Supports [Bedrock](https://roots.io/bedrock) `WordPress` installs
 
-## Install
+## Bedrock installation
+
+1. Edit the `.env` file
+2. Require the package via composer
+
+```dotenv
+# Required SMTP configuration
+SMTP_HOST=smtp.xxx.com
+SMTP_PORT=465
+SMTP_USERNAME=bot@digitalandy.eu
+SMTP_PASSWORD=xxxxxxxx
+
+# Optional
+SMTP_FROM=bot@digitalandy.eu
+SMTP_FROM_NAME=Bot
+DISABLE_WP_PHPMAILER_SMTP=true
+SMTP_REPLY_TO=hi@digitalandy.eu
+```
+
+```shell
+composer require andriilive/wp-phpmailer-smtp
+```
+
+## Manual installation
 
 1. Edit the `wp-config.php` file
 2. Put the `wp-phpmailer-smtp.php` file in to `mu-plugins` or `plugins` dir
