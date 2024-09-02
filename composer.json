@@ -1,5 +1,5 @@
 {
-  "name": "andriilive/wp-disable-generated-image-sizes",
+  "name": "andriilive/wp-phpmailer-smtp",
   "description": "Configure wordpress PHPMailer to send mail via SMTP.",
   "keywords": ["wordpress", "plugin"],
   "homepage": "https://github.com/andriilive/wp-phpmailer-smtp",
